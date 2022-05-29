@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
 	.header { text-align: center;
 	}
@@ -34,7 +34,7 @@ body {
 }
 
 .main__input,
-.section__task{
+.section__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,13 +44,13 @@ body {
   display: flex;
 }
 
-.section{
-  margin:0;
+.section {
+  margin: 0;
   padding: 0px;
 }
 
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 
 .main__button {
@@ -78,7 +78,7 @@ input,button{
   text-transform: uppercase;
 }
 
-.main__input{
+.main__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -101,12 +101,12 @@ input,button{
   margin: 0 0 20px;
 }
 
-.main__input-add{
+.main__input-add {
   width: 318px;
 }
 
 /* Task list */
-.section__wrapper{
+.section__wrapper {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,18 +123,18 @@ input,button{
   margin: 0 10px;
 }
 
-.section__task{
+.section__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.section__wrapper .main__input{
+.section__wrapper .main__input {
   width: 226px;
 }
 
-.delete__img{
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -151,15 +151,15 @@ input,button{
 }
 
 /* Edit Task */
-.section__wrapper .main__input{
-  display:none;
+.section__wrapper .main__input {
+  display: none;
 }
 
-.section__wrapper-edit .main__input{
-  display:inline-block;
-  width:224px;
+.section__wrapper-edit .main__input {
+  display: inline-block;
+  width: 224px;
 }
 
-.section__wrapper-edit .section__task{
-  display:none;
+.section__wrapper-edit .section__task {
+  display: none;
 }
