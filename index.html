@@ -16,41 +16,45 @@
 		</a>
 	</header>
 	<main class="main">
-		<div id="main__add">
+		<div class="main__add">
 			<h3 class="main__title">Add Item</h3>
 			<div class="main__add-section">
-				<input id="new-task" class="main__input" type="text">
+				<input class="main__input main__input-add" id="new-task" type="text">
 				<button class="main__button">Add</button>
 			</div>
 		</div>
 		<section class="section todo__section">
 			<h3 class="main__title">Todo</h3>
 			<div class="section__wrapper">
-				<input type="checkbox">
+				<input class="section__checkbox" type="checkbox">
 				<span class="section__task">Pay Bills</span>
-				<input type="text" class="task">
+				<input type="text" class="main__input">
 				<button class="main__button">Edit</button>
-				<button class="main__button delete"><img src="./remove.svg"></button>
+				<button class="main__button delete">
+					<img src="./remove.svg" class="delete__img">
+				</button>
 			</div>
-			<div class="editMode">
-				<input type="checkbox">
+			<div class="section__wrapper section__wrapper-edit">
+				<input class="section__checkbox" type="checkbox">
 				<span class="section__task">Go Shopping</span>
-				<input type="text" value="Go Shopping" class="task">
-				<button class="edit">Save</button>
-				<button class="delete"><img src="./remove.svg"></button>
+				<input type="text" value="Go Shopping" class="main__input">
+				<button class="main__button">Save</button>
+				<button class="main__button delete">
+					<img src="./remove.svg" class="delete__img">
+				</button>
 			</div>
 		</section>
-		<section class="section complited__setion">
+		<section class="section complited__section">
 			<h3 class="main__title">Completed</h3>
-			<ul id="completed-tasks">
-				<li>
-					<input type="checkbox" checked>
-					<span class="section__task">See the Doctor</span>
-					<input type="text" class="task">
-					<button class="edit">Edit</button>
-					<button class="delete"><img src="./remove.svg"></button>
-				</li>
-			</ul>
+			<div class="section__wrapper">
+				<input class="section__checkbox" type="checkbox" checked>
+				<span class="section__task">See the Doctor</span>
+				<input type="text" class="main__input">
+				<button class="main__button">Edit</button>
+				<button class="main__button delete">
+					<img src="./remove.svg" class="delete__img">
+				</button>
+			</div>
 		</section>
 	</main>
 	<script src="app.js"></script>
