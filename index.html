@@ -3,64 +3,64 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
-	<title>Todo App</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <title>Todo App</title>
 </head>
 
 <body class="body">
-	<header class="header">
-		<img src="./eisenhower-matrix.jpg" class="header__img">
-		<a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower" alt="image">
-			Want more details?
-		</a>
-	</header>
-	<main class="main">
-		<div class="main__add">
-			<h3 class="main__title">Add Item</h3>
-			<div class="main__add-section">
-				<input class="main__input main__input-add" id="new-task" type="text">
-				<button class="main__button">Add</button>
-			</div>
-		</div>
-		<section class="section todo__section">
-			<h3 class="main__title">Todo</h3>
-			<div class="section__wrapper">
-				<input class="section__checkbox" type="checkbox">
-				<span class="section__task">Pay Bills</span>
-				<input type="text" class="main__input">
-				<button class="main__button">Edit</button>
-				<button class="main__button delete">
-					<img src="./remove.svg" class="delete__img" alt="icon">
-				</button>
-			</div>
-			<div class="section__wrapper section__wrapper-edit">
-				<input class="section__checkbox" type="checkbox">
-				<span class="section__task">Go Shopping</span>
-				<input type="text" value="Go Shopping" class="main__input">
-				<button class="main__button">Save</button>
-				<button class="main__button delete">
-					<img src="./remove.svg" class="delete__img" alt="icon">
-				</button>
-			</div>
-		</section>
-		<section class="section complited__section">
-			<h3 class="main__title">Completed</h3>
-			<div class="section__wrapper">
-				<input class="section__checkbox" type="checkbox" checked>
-				<span class="section__task">See the Doctor</span>
-				<input type="text" class="main__input">
-				<button class="main__button">Edit</button>
-				<button class="main__button delete">
-					<img src="./remove.svg" class="delete__img" alt="icon">
-				</button>
-			</div>
-		</section>
-	</main>
-	<script src="app.js"></script>
+  <header class="header">
+    <img src="./eisenhower-matrix.jpg" class="header__img" alt="header-img">
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower" alt="image">
+      Want more details?
+    </a>
+  </header>
+  <main class="main">
+    <div class="main__add">
+      <h3 class="main__title">Add Item</h3>
+      <div class="main__add-section">
+        <input class="main__input main__input-add" id="new-task" type="text">
+        <button class="main__button">Add</button>
+        </div>
+    </div>
+    <section class="section todo__section">
+      <h3 class="main__title">Todo</h3>
+      <div class="section__wrapper">
+        <input class="section__checkbox" type="checkbox">
+        <span class="section__task">Pay Bills</span>
+        <input type="text" class="main__input">
+        <button class="main__button">Edit</button>
+        <button class="main__button delete">
+          <img src="./remove.svg" class="delete__img" alt="del-img">
+        </button>
+      </div>
+      <div class="section__wrapper section__wrapper-edit">
+        <input class="section__checkbox" type="checkbox">
+        <span class="section__task">Go Shopping</span>
+        <input type="text" value="Go Shopping" class="main__input">
+        <button class="main__button">Save</button>
+        <button class="main__button delete">
+          <img src="./remove.svg" class="delete__img" alt="del-img">
+        </button>
+      </div>
+    </section>
+    <section class="section complited__section">
+      <h3 class="main__title">Completed</h3>
+      <div class="section__wrapper">
+        <input class="section__checkbox" type="checkbox" checked>
+        <span class="section__task">See the Doctor</span>
+        <input type="text" class="main__input">
+        <button class="main__button">Edit</button>
+        <button class="main__button delete">
+          <img src="./remove.svg" class="delete__img" alt="del-img">
+        </button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
 </body>
 
 </html>
